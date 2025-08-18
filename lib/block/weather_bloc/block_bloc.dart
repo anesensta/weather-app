@@ -15,7 +15,7 @@ class BlockBloc extends Bloc<BlockEvent, BlockState> {
       try {
         // Get Weather
         WeatherFactory wf =
-            WeatherFactory(API_KEYY, language: Language.ENGLISH);
+            WeatherFactory(API_KEYY!, language: Language.ENGLISH);
         Weather weather = await wf.currentWeatherByLocation(
             event.position.latitude, event.position.longitude);
 
