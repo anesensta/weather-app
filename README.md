@@ -1,2 +1,3 @@
 # waether_app
+A  weather app that displays real-time weather information for any location. Features include current temperature, weather conditions...
 
